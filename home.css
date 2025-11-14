@@ -1,0 +1,459 @@
+*{
+    margin: 0px;
+}
+@font-face {
+    font-family: Nicotine;
+    src: url(./Nicotine\ Regular.ttf);
+}
+.box{
+    height: 100px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.37);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: -30px;
+    position: fixed;
+}
+.logo{
+    height:60px;
+    width: 100px;
+    margin-left: 100px;
+}
+.ank{
+    margin-top: 15px;
+    margin-right: 100px;
+}
+.ank a:hover{
+    color:#D373D8
+}
+.anker{
+    text-align:left;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    padding: 25px;
+     font-family:'Franklin Gothic Medium';
+}
+.img{
+    width: 100vw;
+}
+.text{
+    text-align: center;
+    font-size: 85px;
+    font-family:Nicotine ;
+    font-weight: normal;
+    color: white;
+    position: relative;
+    margin-top: -450px;
+}
+.btn{
+    margin-left: 550px;
+    margin-top: 30px;
+    padding: 10px;
+    width: 230px;
+    background-color: rgb(226, 75, 100);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+.per{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.img2{
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.img3{
+    margin-left: 50px;
+    height: 70px;
+}
+.img3:hover{
+    transform: scale(0.9)
+}
+.pega1{
+    text-align: center;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 50px;
+}
+.feature{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.feat{
+    height: 150px;
+    margin-left: 20px;
+   
+}
+.pega2{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.img4{
+    background-image: url(./banner-1.webp);
+    width: 100vw;
+}
+.pega3{
+    font-size: 90px;
+     text-align: center;
+    font-family: Nicotine;
+    font-weight: bold;
+    color: white;
+    padding: 380px 0px;
+}
+.img5{
+    background-image: url(./banner-2.webp);
+    width: 100vw;
+}
+.pega4{
+    font-size: 90px;
+    text-align: center;
+    font-family: Nicotine;
+    font-weight: bold;
+    color: white;
+    padding: 300px 0px 0px;
+}
+.btn2{
+    padding: 15px;
+    text-align: center;
+    width: 300px;
+    font-size: 25px;
+    border-radius: 50px;
+    border: none;
+    margin-left: 550px;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+    color: white;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+.pega5{
+    text-align: center;
+    font-family: Cambria;
+    padding: 40px;
+    font-size: 50px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    font-family:Arial, Helvetica, sans-serif;
+
+    font-size: 20px;
+    margin-top: 30px;
+}
+.anker2{
+    text-decoration: none;
+    color: brown;
+}
+.pega6{
+    line-height: 40px;
+    font-size: 20px;
+}
+.pega7{
+    font-size: 18px;
+    margin-left: 70px;
+}
+.pega8{
+    margin-left: 70px;
+    margin-top: -30px;
+}
+.lock{
+    margin-left: 40px;
+}
+.pega10{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.email{
+    padding: 20px;
+    width: 350px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    
+}
+.pega11{
+    margin-left: 30px;
+
+}
+.container4{
+    display: flex;
+    justify-content:center;
+
+}
+.img6{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.footer{
+    height: 30px;
+    width: 96vw;
+    background: linear-gradient(to left,#FA5A7F, #E766AB,#D373D8 );
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Home Page End */
+
+/* About Page Start */
+
+.about1{
+    background-image: url(./banner.webp);
+    background-size: cover;
+    font-size: 48px;
+    color: white;
+    font-family: Nicotine;
+
+}
+.select{
+   padding-top: 150px;
+   padding-left: 100px;
+   padding-bottom: 100px;
+}
+.about2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    font-size: 20px;
+    margin-bottom: 80px;
+    
+}
+.about3{
+    margin-top: -50px;
+    line-height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about4{
+    height: 90px;
+    margin-left: 40px;
+}
+.about5{
+    display: flex;
+    justify-content: space-around;
+}
+.about6{
+    line-height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.about7{
+    height: 400px;
+    width: 550px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.about8{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.about9{
+    line-height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 120px;
+    margin-right: 80px;
+}
+.about10{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.about11{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about12{
+    line-height: 35px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about13{
+    margin-top: 120px;
+    margin-right: 150px;
+}
+.ff{
+    margin-left: 30px;
+
+}
+
+/* About Page End */
+
+/* Menu Page Start */
+.menu{
+    background-image: url(./banner\ \(2\).webp);
+    background-size: cover;
+    padding: 150px;
+}
+.menu:hover{
+    transform:scale(5px);
+}
+.menu2{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.menu3{
+    color: white;
+    font-family: Nicotine;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Menu Page End */
+
+/* Franchies Page start */
+
+.fran{
+    margin: 0px;
+    width: 1350px;
+    position: absolute;
+    z-index: -1;
+}
+.fran1{
+    font-size: 60px;
+    font-family: Nicotine;
+    text-align: center;
+    color: white;
+    padding-top: 250px;
+}
+.fran2{
+    font-size: 25px;
+    font-family: Nicotine;
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+.buttn{
+    padding:15px;
+    width: 200px;
+    border: none;
+    border-radius: 50px;
+    background-color:#FA5A7F;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 600px;
+    margin-top: 80px;
+}
+.icon{
+    font-size: 30px;
+    color: white;
+    margin-left: 630px;
+    margin-top: 30px;
+}
+.fran3{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.fran4{
+    text-align: center;
+    margin-left: 80px;
+    margin-top: -25px;
+}
+.fran5{
+    margin-top: 300px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 28px;
+    font-size: 23px;
+    margin-bottom: 80px;
+    padding: 0px 100px;
+}
+.fran5 hr{
+    background-color: #D373D8;
+    height: 2px;
+    border: none;
+}
+.fran6{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.fran7 hr{
+    background-color: #D373D8;
+    height: 2px;
+    border: none;
+    
+}
+.fran7{
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 80px;
+
+}
+.fran8{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fran9{
+   padding-top: 50px;
+   padding: 0px 100px;
+
+}
+.fran10{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-bottom: 60px;
+
+}
+.fran11{
+    height: 50px;
+    width: 50px;
+}
+.new{
+    display: flex;
+    
+}
+.pp{
+    text-decoration: none;
+     margin-left: 20px;
+     color:#FA5A7F;
+     margin-top: -10px;
+}
+.f9{
+    margin-top: -40px;
+}
+.fq{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 60px;
+
+}

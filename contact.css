@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    color: rgb(80, 79, 79);
+
+
+}
+body{
+    background-color: #E2E2E2;
+}
+.navbar{
+    background-color: #58614E;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+.n2{
+    color: white;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.f12{
+    display: flex;
+    padding-top: 20px;
+}
+.ik1{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.f{
+    display: flex;
+    padding-top: 20px;
+}
+.la1{
+    height: 20px;
+    width: 600px;
+}
+.la2{
+    height: 80px;
+    width: 600px;
+}
+.la3{
+    color: white;
+    background-color: #58614E;
+    height: 25px;
+    width: 200px;
+}
+.f2{
+    border-left: 1px dotted grey;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-right: 220px;
+}
+.f1{
+    margin-left: 170px;
+    width: 1200px;
+}
+h2{
+    border-bottom: 1px dotted grey;
+}
+.footerinnerone{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.a{
+    width: 300px;
+    padding: 20px;
+    line-height: 25px;
+    border-right: 1px dotted grey;
+   
+}
+.mailbtn{
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin-top: 30px;
+    display: block;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+}
+.b{
+    border-right: none;
+}
+.footerinner2{
+    background-color: #4F5843;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.i1{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.g{
+    font-size: small;
+    color: rgba(238, 234, 234, 0.9);
+}

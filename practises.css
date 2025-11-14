@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    color: rgb(80, 79, 79);
+}
+body{
+    background-color: #E2E2E2;
+}
+.navbar{
+    background-color: #58614E;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+.n2{
+    color: white;
+    margin-left: 20px;
+    font-size: 14px;
+
+}
+
+.d2{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #DEB588;
+    border-bottom: 1px dotted black;
+
+}
+.m1{
+    padding: 20px;
+    border-bottom: 1px dotted black;
+}
+.d{
+    display: flex;
+    color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h3{
+    padding: 20px;
+}
+.p2{
+    padding-top: 10px;
+    padding-left: 150px;
+}
+.p1{
+    border-top: 1px dotted grey;
+}
+.img{
+    margin: 10px;
+}
+.d3{
+    margin-left: 70px;
+}
+.d1{
+    border-right: 1px dotted black;
+    padding-right: 50px;
+}
+.m2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.m3{
+    line-height: 25px;
+}
+.footerinnerone{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.a{
+    width: 300px;
+    padding: 20px;
+    line-height: 25px;
+    border-right: 1px dotted grey;
+   
+}
+.mailbtn{
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin-top: 30px;
+    display: block;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+}
+.b{
+    border-right: none;
+}
+.footerinner2{
+    background-color: #4F5843;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.i1{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.g{
+    font-size: small;
+    color: rgba(238, 234, 234, 0.9);
+}
+.k1{
+    height: 200px;
+    width: 200px;
+    background-image: url(./prenuptial.jpg);
+    background-repeat: no-repeat;
+  
+    border: 5px solid whitesmoke;
+}
+.k2{
+    height: 200px;
+    width: 200px;
+    background-image: url(./bride-sideview.jpg);
+    margin-left: 90px;
+    background-repeat: no-repeat;
+    border: 5px solid whitesmoke;
+
+
+}
+.k3{
+    height: 200px;
+    width: 200px;
+    background-image: url(./children.jpg);
+    background-repeat: no-repeat;
+    margin-left: 0px;
+    margin-top: 50px;
+    border: 5px solid whitesmoke;
+
+}
+.k{
+    display: flex;
+}
+.s1{
+    margin-top: 100px;
+}
+.l1{
+    height: 200px;
+    width: 200px;
+    text-decoration: none;
+    color: white;
+    padding-top: 300px;
+}
+.k12{
+    margin-top: 170px;
+    width: 200px;
+    height: 30px;
+    background-color: grey;
+    color: white;
+    border: none;
+}
+

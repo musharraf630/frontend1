@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    color: rgb(80, 79, 79);
+}
+body{
+    background-color: #E2E2E2;
+}
+.navbar{
+    background-color: #58614E;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+.n2{
+    color: white;
+    margin-left: 20px;
+    font-size: 14px;
+
+}
+.f{
+    display: flex;
+}
+
+.f3{
+    display: flex;
+    margin-bottom: 30px;
+}
+.f5{
+    margin-left: 50px;
+}
+h5{
+    margin-bottom: 10px;
+}
+p{
+    line-height: 20px;
+}
+.x1{
+    border-bottom: 1px dotted grey;
+    padding-bottom: 20px;
+}
+.x2{
+    border-bottom: 1px dotted grey;
+}
+h1{
+    margin-bottom: 10px;
+}
+h3{
+    margin-bottom: 10px;
+}
+.f4{
+    border: 5px groove white;
+}
+.f2{
+    border-left: 1px dotted grey;
+    margin-left: 20px;
+    margin-right: 200px;
+    padding-left: 20px;
+}
+.f1{
+    padding-left: 200px;
+    padding-right: 20px;
+
+}
+.v1{
+    line-height: 30px;
+}
+.v3{
+    border-bottom: 1px dotted grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.v2{
+    padding-left: 250px;
+}
+.an1{
+    text-decoration: underline;
+    color: #58614E;
+}
+.v4{
+    border-bottom: 1px dotted grey;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.footerinnerone{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.a{
+    width: 300px;
+    padding: 20px;
+    line-height: 25px;
+    border-right: 1px dotted grey;
+   
+}
+.mailbtn{
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin-top: 30px;
+    display: block;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+}
+.b{
+    border-right: none;
+}
+.footerinner2{
+    background-color: #4F5843;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.i1{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.g{
+    font-size: small;
+    color: rgba(238, 234, 234, 0.9);
+}

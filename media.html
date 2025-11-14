@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        @media (max-width:400px){
+            body{
+                background-color: red;
+            }
+            .b,.c,.d{
+                display: none;
+            }
+        }
+        @media (max-width:700px) and (min-width:401px){
+            body{
+                background-color: purple;
+            }
+            .a,.c,.d{
+                display: none;
+            }
+        }
+        @media (max-width:1200px) and (min-width:701px){
+            body{
+                background-color: yellow;
+            }
+            .a,.b,.d{
+                display: none;
+            }
+        }
+        .abc{
+
+        }
+    </style>
+</head>
+<body>
+    <h1>HELLO WORLD</h1>
+    <h1 class="abc a">MOBILE DEVICE</h1>
+    <h1 class="abc b">TABLET DEVICE</h1>
+    <h1 class="abc c">DESKTOP DEVICE</h1>
+    <h1 class="abc d">LARGE SCREEN DEVICE</h1>
+</body>
+</html>

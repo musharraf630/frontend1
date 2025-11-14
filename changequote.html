@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .kio{
+            margin-left: 400px;
+            margin-bottom: 40px;
+            background-color: blue;
+            width: 400px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="kio">
+        <h1 id="quotes">HELLO WORLD</h1>
+
+    </div>
+    <button id="btn">change quote</button>
+    <script>
+        let quotesElement=document.getElementById("quotes")
+        let section=document.querySelector(".kio")
+            let btnelement=document.getElementById("btn")
+            btnelement.addEventListener("click",()=>{
+                let color= "#"
+                let colorchars="0123456789abcdef"
+                for(let i=0;i<6;i++){
+                    let randomnumber=Math.trunc(Math.random()*16)
+                    color +=colorchars[randomnumber]
+                    section.style.backgroundColor=color
+                }
+                let quotes=["hi","hello","helloworld","javascript","html","css","reactjs","nodejs"]
+                let randomnumber=Math.trunc(Math.random()*8)
+                quotesElement.innerHTML=quotes[randomnumber]
+            })
+    </script>
+</body>
+</html>

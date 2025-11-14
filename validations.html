@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+        body{
+            background-color: rgb(53, 17, 199);
+        }
+        .msg{
+            color: red;
+            display: none;
+            font-weight: bold;
+        }
+        form{
+            background-color: black;
+            width: 300px;
+            color: white;
+            height: 300px;
+            padding: 20px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: inset 0px 0px 10px green;
+            
+        }
+        input,button{
+            display: block;
+            margin: auto;
+            margin-top: 5px;
+            padding: 10px;
+            border-radius: 10px;
+            outline: none;
+        }
+        #eyes{
+            position: absolute;
+            top: 0px;
+            right: 12px;
+            border: none;
+            background-color: white;
+            height: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="" onsubmit="return validation(event)">
+        <div>
+            <input type="text" placeholder="Enter User name" name="user">
+            <small class="msg">user name is required</small>
+        </div>
+        <br>
+        <div style="position: relative;"> 
+            <input id="pw" type="password" placeholder="Enter password name" name="pwd">
+            <small class="msg">pass word is required</small>
+            <button type="button" onclick="eye()" id="eyes"><i style="color: black;" class="fa-light fa-eye"></i></button>
+          </div>
+          <button type="submit">submit</button>
+    </form>
+    <script>
+        let ermsg=document.getElementsByClassName("msg")
+        let validation=(e)=>{
+            userElement=e.target.user.value
+            pwdElement=e.target.pwd.value
+            if(userElement===""){
+                ermsg[0].style.display="block"  
+                return false
+            }
+           else if(pwdElement===""){
+                ermsg[1].style.display="block"  
+                return false
+            }
+        }
+        let inputpassword=document.getElementById("pw")
+        let eyeElement=document.getElementById("eyes")
+        function eye(){
+            if(inputpassword.type==="password"){
+                inputpassword.type="text"
+                eyeElement.innerHTML='<i class="fa-thin fa-eye-slash"></i>'
+            }
+            else{
+                inputpassword.type="password"
+                eyeElement.innerHTML='<i class="fa-solid fa-eye"></i>'
+            }
+        }
+    </script>
+</body>
+</html>

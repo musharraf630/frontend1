@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: blue;
+        }
+        .msg{
+            color: red;
+            font-weight: bold;
+            display: none;
+        }
+        form{
+            background-color: black;
+            width: 200px;
+            height: 200px;
+            color: white;
+            padding: 20px;
+            margin: auto;
+            border-radius: 5px;
+            box-shadow: inset 1px 1px 10px white;
+        
+        }
+        input,button{
+            display: block;
+            margin: auto;
+            margin-top: 5px;
+            padding: 10px;
+            border-radius: 5px;
+            outline: none;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="" onsubmit="return validation(event)">
+        <div>
+            <input type="password" placeholder="enter the pass word" name="pwd">
+        </div>
+        <br>
+        <div>
+            <input id="pw" type="password" placeholder="confirm the pass word" name="cpwd">
+            <small class="msg">passwordis not matching</small>
+        </div>
+        <button type="submit">submit</button>
+    </form>
+    <script>
+        let emsg=document.querySelector(".msg")
+        let validation=(e)=>{
+            let password=e.target[0].value
+            let  cwdpassword=e.target[1].value
+            if(password===cwdpassword){
+                return true
+            }
+            else{
+                emsg.style.display="block"
+                return false
+            }
+
+        }
+    </script>
+</body>
+</html>

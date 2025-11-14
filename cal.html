@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            padding: 20px;
+            height: 40px;
+            width: 100px;
+        }
+        input{
+            height: 40px;
+            width: 400px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <input disabled  id="screen" type="text"> <br>
+    <button class="but">1</button>
+    <button class="but">2</button>
+    <button class="but">3</button>
+    <button class="but">4</button> <br>
+    <button class="but">5</button>
+    <button class="but">6</button>
+    <button class="but">7</button>
+    <button class="but">8</button> <br>
+    <button class="but">9</button>
+    <button class="but">0</button>
+    <button class="but">+</button>
+    <button class="but">-</button> <br>
+    <button id="eq">=</button>
+    <button class="but">*</button>
+    <button id="ac">ac</button>
+    <button id="del">del</button>
+    <script>
+        let x=document.getElementsByClassName("but");
+        let y=document.getElementById("screen")
+        for(let i=0;i<x.length;i++){
+            x[i].addEventListener("click",()=>{
+                y.value +=x[i].innerHTML
+            })
+        }
+        let z=document.getElementById("eq")
+        z.addEventListener("click",()=>{
+            y.value=eval(y.value)
+        })
+        let all=document.getElementById("ac")
+        all.addEventListener("click",()=>{
+            y.value=""
+        })
+        let del=document.getElementById("del")
+        del.addEventListener("click",()=>{
+            y.value=y.value.slice(0,-1)
+        })
+    </script>
+</body>
+</html>

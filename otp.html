@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>OTP GENERATOR</h1>
+    <button id="btn">Generate OTP</button>
+    <h3 id="lop"></h3>
+    <script>
+        let lopelement=document.getElementById("lop")
+        let btnelement=document.getElementById("btn")
+        btnelement.addEventListener("click",()=>{
+            let otp=Math.trunc(Math.random()*10000)
+            if(otp>999)
+            lopelement.innerHTML=otp
+            else
+            alert("sorry try again")
+        })
+    </script>
+</body>
+</html>

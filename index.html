@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .main{
-            background-image: url(./background.webp);
-            height: 100vh;
-            background-position: center;
-            background-size: cover;
+        .dark{
+            background-color: black;
+            color: white;
         }
     </style>
 </head>
 <body>
-    <div class="main">
-
-    </div>
+    <h1 id="sample">hello <span style="color: red;">world</span></h1>
+    <button onclick="changeContent()">change content</button>
+    <button onclick="changeStyle()">change style</button>
+    <button id="togglebtn" onclick="darkMode()">darkmode</button>
+    <script src="./dom.js"></script>
 </body>
 </html>

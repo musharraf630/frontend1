@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(194, 11, 11);
+         
+        }
+        
+        #fr{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+   
+    <div class="bh">
+        <button id="btn">clickme</button>
+        <h1>your code is <span id="fr"></span></h1>
+    </div>
+    <script>
+        let z=document.querySelector("body")
+        let x=document.getElementById("btn")
+        let y=document.getElementById("fr")
+        x.addEventListener("click",()=>{
+            let color="#"
+            let colort="123456789abcdef"
+            for(let i=0;i<6;i++){
+                let rn=Math.trunc(Math.random()*16)
+                color +=colort[rn];
+                z.style.backgroundColor=color
+            }
+            let r=document.getElementById("fr")
+            r.innerHTML=color
+            r.style.display="block"
+
+        })
+    </script>
+</body>
+</html>

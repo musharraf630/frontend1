@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="even()">Even or odd</button> <br>
+    <button onclick="prime()">Prime Number</button> <br>
+    <button onclick="factorial()">Factorial</button> <br>
+    <button onclick="factors()">Factors</button> <br>
+    <button onclick="add()">Add</button> <br>
+    <button onclick="evensum()">Even Sum</button> <br>
+    <button onclick="revStr()">rev string</button> <br>
+    <button onclick="pal()">rev string</button>
+
+    <script>
+        let even=()=>{
+            let n=Number(prompt("enter the number"))
+            if(n%2==0)
+            console.log(`${n} is a even number`);
+            else
+            console.log(`${n} is a odd number`);
+
+        }
+        let prime=()=>{
+           let c=0;
+            let n=Number(prompt("enter the number"))
+            for(let i=2;i<n;i++)
+            {
+                if(n%i===0)
+                c++;
+            }
+            if(c===0)
+            console.log(`${n} is a prime number`);
+            else
+            console.log(`${n} is not a prime number`);
+
+        
+        }
+        let factors=()=>{
+            let n=Number(prompt("enter the number"))
+            for(let i=1;i<=n;i++)
+            {
+                if(n%i===0)
+                console.log(i);
+            }
+           
+        
+        }
+        let factorial=()=>{
+            let n=Number(prompt("enter the number"))
+            let p=1;
+            for(let i=1;i<=n;i++)
+            {
+                p=p*i;
+            }
+            console.log(p);
+           
+        
+        }
+        let add=()=>{
+            let n1=Number(prompt("enter the number1"))
+            let n2=Number(prompt("enter the number2"))
+            let s=0;
+            let p=1;
+            let c=0;
+            for(let i=n1;i<=n2;i++)
+            {
+                s=s+i;
+                p=p*i;
+                c++;
+            }
+            let a=s/(n2-n1+1);
+            console.log(p);
+            console.log(s);
+            console.log(a);
+
+        }
+        let evensum=()=>{
+            let n=Number(prompt("enter the number"))
+            let s=0;
+            for(let i=1;i<=n;i++)
+            {
+                if(i%2===0)
+                s=s+i;
+            }
+            console.log(s);
+           
+        
+        }
+        let revStr=()=>{
+            let str=prompt("enter a string")
+            let revstr=""
+            for(let i=str.length-1;i>=0;i--){
+                revstr +=str[i]
+            }
+            console.log(revstr);
+
+        }
+        let pal=()=>{
+            let str=prompt("enter a string")
+            let revstr=""
+            for(let i=str.length-1;i>=0;i--){
+                revstr +=str[i]
+            }
+            if(revstr===str)
+            console.log("palindrome");
+            else
+            console.log("not a palindrome");
+
+        }
+    </script>
+</body>
+</html>
